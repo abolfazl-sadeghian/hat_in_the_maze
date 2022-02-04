@@ -153,5 +153,5 @@ let myField = new Field(5,10,20)
 while(myField.gameOn){
     myField.draw()
     let movement = prompt('What is your move ?')
-    myField.move_character(movement)
+    myField.move_character(movement.toLowerCase())
 }
